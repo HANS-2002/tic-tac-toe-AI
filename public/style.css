@@ -1,0 +1,64 @@
+@font-face {
+  font-family: "Bloomberg";
+  src: url("fonts/Bloomberg.otf") format("opentype");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(58, 58, 58);
+  color: rgb(255, 255, 255);
+  font-family: monospace;
+}
+
+::-webkit-scrollbar {
+  width: 7px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgb(205, 205, 205);
+}
+
+::-webkit-scrollbar-thumb {
+  background: #ff6262;
+  border-radius: 100px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(255, 12, 12, 0.73);
+}
+
+.gameText {
+  font-family: "Bloomberg", serif;
+  font-size: 4rem;
+  color: #ffeeeed5;
+  cursor: pointer;
+}
+
+.border-right {
+  border-right: 5px solid rgba(136, 255, 85, 0.554);
+  border-radius: 5px;
+}
+
+.border-bottom {
+  border-bottom: 5px solid rgba(136, 255, 85, 0.554);
+  border-radius: 5px;
+}
+
+.resetBtn {
+  background-color: rgb(24, 24, 24);
+  color: rgb(201, 201, 201);
+  font-size: 1.4rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 8rem;
+  text-align: center;
+  margin-top: 2rem;
+  transition: 0.5s;
+}
+
+.resetBtn:hover {
+  background-color: rgb(201, 201, 201);
+  color: rgb(24, 24, 24);
+}
